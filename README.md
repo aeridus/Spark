@@ -22,7 +22,7 @@ This app helps track one's mood on a daily basis.
 * Jetpack Compose
 * Long-term timed push notifications
 * Storing settings in DataStore
-* Storing the carbs eaten in Room, an internal database
+* Storing past moods in Room, an internal database
 * Refreshing the UI based on multiple triggers
 * Light/dark themes
 * Build scripts
