@@ -18,6 +18,15 @@ This app helps track one's mood on a daily basis.
 * The number in the top right is the day threshold hour, adjustable with +/-
   * I recommend setting this to the middle of your usual sleep schedule
 
+### Kotlin Knowledge Used
+* Jetpack Compose
+* Long-term timed push notifications
+* Storing settings in DataStore
+* Storing the carbs eaten in Room, an internal database
+* Refreshing the UI based on multiple triggers
+* Light/dark themes
+* Build scripts
+
 ### Potential Improvements
 * Disable selecting mood if already selected recently (this is unimplemented for testing purposes)
 * Add more scenes, for at least 9 total
