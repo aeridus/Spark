@@ -35,6 +35,9 @@ This app helps track one's mood on a daily basis.
   * Keeps the experience from feeling stale
   * This could be an issue if users prefer a handful of scenes
   * Maybe weight scenes higher in selection if moods have been chosen from them before
+* Nest scenes in another category, to allow for more selection
+  * Gives user more choices up front
+  * Increases the number of taps, however, so could decrease engagement
 * Determine how long to hang on to mood history, right now it wipes anything older than a week
 * A separate screen to show all unique moods selected
 
