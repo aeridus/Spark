@@ -28,5 +28,5 @@ This app helps track one's mood on a daily basis.
   * Maybe weight scenes higher in selection if moods have been chosen from them before
 
 ### Example Screenshots
-![Light Theme For App](Spark.png)
-![Dark Theme For App](Spark.png)
+![Light Theme For App](SparkLight.png)
+![Dark Theme For App](SparkDark.png)
