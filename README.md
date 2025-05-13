@@ -11,7 +11,7 @@ This app helps track one's mood on a daily basis.
 
 ### How The App Works
 * 24 hours from the last time you entered your mood, you will be notified that you're Getting Moody
-* 48 hours from the last time you ate, you will be notified that you're Very Moody
+* 48 hours from the last time you entered your mood, you will be notified that you're Very Moody
 * Recording any mood in the app will reset the timer
 * The last week of data is tracked to see your past moods
 * The topmost button allows you to change the UI theme between System/Dark/Light
