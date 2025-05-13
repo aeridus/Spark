@@ -364,10 +364,10 @@ fun ChoiceButtonGrid(
             .padding(8.dp)
     )
 
-    var theme by remember { mutableStateOf("") }
+    var scene by remember { mutableStateOf("") }
 
     var choices = mutableListOf<String>()
-    if (theme.isEmpty()) {
+    if (scene.isEmpty()) {
         choices = mutableListOf<String>(
             "desert",
             "ocean",
@@ -381,7 +381,7 @@ fun ChoiceButtonGrid(
         )
     } else {
         (1..9).forEach {
-            choices.add("${theme}_${it}")
+            choices.add("${scene}_${it}")
         }
         choices.add("back")
     }
@@ -395,13 +395,13 @@ fun ChoiceButtonGrid(
                 value = sparkChoice,
                 onChoiceClick = {
                     if (sparkChoice == "back") {
-                        theme = ""
+                        scene = ""
                     }
-                    else if (theme.isNotEmpty()) {
+                    else if (scene.isNotEmpty()) {
                         onChoiceClick(sparkChoice)
-                        theme = ""
+                        scene = ""
                     } else {
-                        theme = sparkChoice
+                        scene = sparkChoice
                     }
                 }
             )
